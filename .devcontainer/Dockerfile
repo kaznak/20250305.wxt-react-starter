@@ -17,6 +17,7 @@ RUN apt-get update && \
     gnupg \
     code \
     chromium \
+    fonts-ipafont-gothic fonts-ipafont-mincho   \
     && rm -rf /var/lib/apt/lists/*
 
 # ワークディレクトリを設定
