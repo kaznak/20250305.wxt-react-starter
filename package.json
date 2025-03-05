@@ -12,6 +12,7 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
+    "format": "prettier -w -u .",
     "postinstall": "wxt prepare"
   },
   "dependencies": {
