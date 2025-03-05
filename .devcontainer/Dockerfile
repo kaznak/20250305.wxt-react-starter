@@ -17,6 +17,7 @@ RUN apt-get update && \
     gnupg \
     code \
     chromium \
+    firefox-esr \
     fonts-ipafont-gothic fonts-ipafont-mincho   \
     && rm -rf /var/lib/apt/lists/*
 
