@@ -2,5 +2,5 @@
   "name": "WXT Browser Extension Development",
   "dockerComposeFile": ["./docker-compose.yaml"],
   "service": "app",
-  "workspaceFolder": "/workspace" 
+  "workspaceFolder": "/home/node/workspace", 
 }

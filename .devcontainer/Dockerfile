@@ -22,7 +22,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # ワークディレクトリを設定
-WORKDIR /workspace
+WORKDIR /home/node/workspace
 
 # コンテナ起動時に code-server を実行
 CMD ["code", "--bind-addr", "0.0.0.0:8080", "."]

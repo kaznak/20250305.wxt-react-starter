@@ -4,8 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ../:/workspace:delegated
-    working_dir: /workspace
+      - ../:/home/node/workspace:delegated
+    working_dir: /home/node/workspace
     tty: true
     user: node
     ports:
